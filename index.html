@@ -177,6 +177,29 @@
             gap: 0.55rem;
         }
 
+        .detail-list {
+            margin: 0;
+            padding-left: 1.2rem;
+            display: grid;
+            gap: 0.6rem;
+            color: var(--muted);
+        }
+
+        .section-block {
+            margin-top: 1.2rem;
+        }
+
+        .section-block .card {
+            animation: fadeUp 0.7s ease both;
+        }
+
+        .pub-subtitle {
+            margin: 1rem 0 0.5rem;
+            color: var(--primary);
+            font-weight: 800;
+            font-size: 1.05rem;
+        }
+
         footer {
             text-align: center;
             margin-top: 1.2rem;
@@ -280,6 +303,88 @@
                     <li>Excellent Paper Award, 2022 Taiwan Conference on Software Engineering (TCSE 2025), Taiwan, July 2022.</li>
                     <li>Best Paper Award, 2021 Taiwan Conference on Software Engineering (TCSE 2025), Taiwan, July 2021.</li>
                 </ul>
+            </article>
+        </section>
+
+        <section class="section-block" aria-label="Projects involved">
+            <article class="card" aria-labelledby="projects-title">
+                <h2 id="projects-title">PROJECTS INVOLVED</h2>
+                <ul class="detail-list">
+                    <li>2027 具有自動縮放、動態安全策略部署和零信任架構的微服務閘道框架研究, 擔任: 計畫主持人, 補助機關: 國家科學及技術委員會, 執行期限: 116/8-117/7</li>
+                    <li>2026 具有自動縮放、動態安全策略部署和零信任架構的微服務閘道框架研究, 擔任: 計畫主持人, 補助機關: 國家科學及技術委員會, 執行期限: 115/8-116/7</li>
+                    <li>2026 115年度「智慧創新關鍵人才躍升計畫」, 擔任: 計畫主持人, 補助機關: 教育部, 執行期限: 115/2-116/1</li>
+                    <li>2025 具有自動縮放、動態安全策略部署和零信任架構的微服務閘道框架研究, 擔任: 計畫主持人, 補助機關: 行政院科技部, 執行期限: 114/8-115/7</li>
+                    <li>2025 114年度大專學生研究計畫-結合影像辨識與深度學習的電腦零件瑕疵自動光學檢測(AOI)模型(吳傢澂), 擔任: 計畫主持人, 補助機關: 國家科學及技術委員會, 執行期限: 114/7-115/1</li>
+                    <li>2025 舉辦第21屆台灣軟體工程研討會-114/6/27-6/28(國科會工程技術研究發展處), 擔任: 計畫主持人, 補助機關: 民間企業, 執行期限: 114/6</li>
+                    <li>2025 114年度「智慧創新關鍵人才躍升計畫」, 擔任: 計畫主持人, 補助機關: 教育部, 執行期限: 114/2-115/1</li>
+                    <li>2025 「開發及維運基於微服務架構之電商平台」產學合作研究計畫(騏騏資訊企業社), 擔任: 計畫主持人, 補助機關: 民間企業, 執行期限: 114/1</li>
+                    <li>2024 具有負載平衡機制的微服務閘道框架之研究, 擔任: 計畫主持人, 補助機關: 行政院科技部, 執行期限: 113/8-114/7</li>
+                    <li>2024 113年度「智慧創新關鍵人才躍升計畫」, 擔任: 計畫主持人, 補助機關: 教育部, 執行期限: 113/2-114/1</li>
+                    <li>2023 基於Saga、快取和開源軟體的微服務編排程式庫與排程演算法之研究, 擔任: 計畫主持人, 補助機關: 行政院科技部, 執行期限: 112/8-113/7</li>
+                    <li>2023 112年度「智慧創新關鍵人才躍升計畫」, 擔任: 計畫主持人, 補助機關: 教育部, 執行期限: 112/2</li>
+                    <li>2022 基於容器和設計結構矩陣的微服務部署方法以建立開發維運平台之研究, 擔任: 計畫主持人, 補助機關: 行政院科技部, 執行期限: 111/8</li>
+                    <li>2022 智慧創新跨域人才培育聯盟計畫-自動化軟體測試開源工具開源系統軟體創作聯盟推動計畫, 擔任: 計畫主持人, 補助機關: 教育部, 執行期限: 111/2</li>
+                    <li>2021 基於容器和設計結構矩陣的微服務組合和部署方法以建立開發維運平台之研究, 擔任: 計畫主持人, 補助機關: 行政院科技部, 執行期限: 110/8</li>
+                    <li>2021 智慧創新人才培育示範學校計畫-自動化軟測試開源工具開源系統軟體創作聯盟推動計畫, 擔任: 計畫主持人, 補助機關: 教育部, 執行期限: 110/2</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="section-block" aria-label="Patent">
+            <article class="card" aria-labelledby="patent-title">
+                <h2 id="patent-title">專利 (Patent)</h2>
+                <ul class="detail-list">
+                    <li>李文廷、吳孟賢。「使用微服務架構來實作程式庫的方法」, 臺灣專利號 202331534, 2023.</li>
+                    <li>李文廷、黃傳鈞。「表格文本的表格辨識方法」, 臺灣專利號 202331651, 2023.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="section-block" aria-label="Publications">
+            <article class="card" aria-labelledby="pub-title">
+                <h2 id="pub-title">PUBLICATIONS</h2>
+
+                <h3 class="pub-subtitle">Journal Papers</h3>
+                <ol class="detail-list">
+                    <li>Wen-Tin Lee, Ping-Yi Song and Ming-Kai Tsai. A Data-Consistent Microservices Architecture Library using Saga Design Pattern and Backup Mechanism. Journal of Information Science and Engineering (JISE), Vol. 39 No. 5, pp.1117-1128, Sep 2024. (SCI, EI) (MOST 112-2221-E-017-001)</li>
+                    <li>Wen-Tin Lee and Zhun-Wei Liu. Microservices-based DevSecOps Platform using Pipeline and Open Source Software. Journal of Information Science and Engineering (JISE), Vol. 39 No. 5, pp.1117-1128, Sep 2023. (SCI, EI) (MOST 110-2221-E-017-001)</li>
+                    <li>Wen-Tin Lee and Chih-Hsien Chen. Agile Software Development and Reuse Approach with Scrum and Software Product Line Engineering. Electronics. 2023; 12(15):3291. (SCI, EI). (MOST 111-2221-E-017-003)</li>
+                    <li>W.-T. L. M.-H. W. Z.-W. L. S.-J. Lee, A Microservices Orchestration Library based on PHP and RESTful API. Journal of Information Science and Engineering (JISE), vol. 38, no. 6, pp. 1133-1147, Nov 2022. (SCI, EI). (MOST 110-2221-E-017-001)</li>
+                    <li>W.-T. L and C.-C. H. Deformable CNN Model for Detecting Tables and Columns from Document Images. Journal of Information Science and Engineering (JISE), Vol. 38 Issue 6, pp.1305-1315, Nov 2022. (SCI, EI). (MOST 110-2221-E-017-001)</li>
+                    <li>Shang-Pin Ma, Chia-Yu Li, Wen-Tin Lee, and Shin-Jie Lee. Microservice Migration Using Strangler Fig Pattern and Domain-Driven Design. Journal of Information Science and Engineering (JISE), 38(6):1285-1303, November 2022. (SCI, EI)</li>
+                    <li>Shang-Pin Ma, Chi-Chia Li, Shin-Jie Lee, Hsi-Min Chen, and Wen-Tin Lee. Cache-Enabled and Context-Aware Approach to Building Composite Mobile Apps. Journal of Information Science and Engineering (JISE), Vol. 37 No. 1, pp.123-138, January 2021. (SCI, EI)</li>
+                </ol>
+
+                <h3 class="pub-subtitle">Conference Papers</h3>
+                <ol class="detail-list">
+                    <li>Wen-Tin Lee, Wei-Ting Jian, Shang-Pin Ma. Proportional-Integral-Derivative Enhancement for Horizontal Pod Autoscaling in Kubernetes. In Proceedings of 30th International Symposium on Artificial Life and Robotics (AROB 2025), Beppu, Japan, January 2025.</li>
+                    <li>Chih-Yu Hsieh, Tzu-Yu Huang, Shang-Pin Ma, Wen-Tin Lee, Shin-Jie Lee. Microservice Identification Using Large Language Models: A Code-Centric Analysis Framework. In Proceedings of 30th International Symposium on Artificial Life and Robotics (AROB 2025), Beppu, Japan, January 2025.</li>
+                    <li>Wen-Tin Lee and Ming-Kai Tsai. Implementing a PHP API Gateway Based on Microservices Architecture. In Proceedings of the 48th IEEE International Conference on Computers, Software, and Applications (COMPSAC 2024), Osaka, Japan, July 2024. (MOST 112-2221-E-017-001)</li>
+                    <li>Wen-Tin Lee, Ping-Yi Song, Ming-Kai Tsai, Meng-Hsien Wu and Shang-Pin Ma. A High Availability Microservices Architecture Implementation using Saga and Backup Mechanism. In Proceedings of the 10th International Conference on Dependable Systems and Their Applications (DSA 2023), Tokyo, Japan, August 2023.</li>
+                    <li>Wen-Tin Lee, Zhi-Yao Yang, Zhun-Wei Liu and Shin-Jie Lee. Containerized Microservices Deployment Approach based on Ant Colony Optimization. In Proceedings of the 10th International Conference on Dependable Systems and Their Applications (DSA 2023), Tokyo, Japan, August 2023.</li>
+                    <li>Meng-Hsien Wu, Wen-Tin Lee and Zhun-Wei Liu. A Microservices Architecture Implementation using Orchestration Pattern. Software Engineering in Taiwan Workshop (SETaiwan2021) co-located with APSEC'21, Taipei, Taiwan, December 9, 2021.</li>
+                </ol>
+
+                <h3 class="pub-subtitle">Local Conference Papers</h3>
+                <ol class="detail-list">
+                    <li>梁家銘、李文廷。「智慧運維代理人:基於檢索增強生成之系統異常檢測架構」, 2025台灣軟體工程研討會, 高雄, 台灣, 2025. (TCSE 2025 Best Paper) (2025第十八屆崇越論文大賞 AI技術開發與應用組碩士論文 特優獎)</li>
+                    <li>邱致凱、李文廷。「基於LLM與 RAG之 BDD測試代理人」, 2025台灣軟體工程研討會, 高雄, 台灣, 2025.</li>
+                    <li>李俊毅、李文廷。「Anser-EDA:基於事件驅動架構之微服務協調與編排框架」, 2025台灣軟體工程研討會, 高雄, 台灣, 2025.</li>
+                    <li>吳傢澂、林士祐、徐柏鈞、李文廷。「結合影像辨識與深度學習的電腦零件瑕疵自動光學檢測(AOI)模型」, 2025台灣軟體工程研討會, 高雄, 台灣, 2025. (TCSE 2025 Best Poster Paper)</li>
+                    <li>吳孟賢、李文廷、郭忠義。「Gogolook AI：基於大型語言模型的智慧型詐騙辨識方法」, 2025台灣軟體工程研討會, 高雄, 台灣, 2025.</li>
+                    <li>簡瑋廷、李文廷。「基於 PID 控制演算法之Kubernetes 水平容器集自動伸縮方法」, 2024台灣網際網路研討會 (Taiwan Academic Network Conference, TANET2024), 台北, 台灣, 2024.</li>
+                    <li>蔡銘凱、李俊毅、李文廷。「基於微服務架構設計與實作具備服務探索和反向代理之API閘道器框架」, 2024台灣軟體工程研討會, 台北, 台灣, 2024.</li>
+                    <li>蔡銘凱、宋品毅、吳孟賢、李文廷。「使用Saga和備援機制實作之高可用性微服務架構」, 2023台灣軟體工程研討會, 花蓮, 台灣, 2023.</li>
+                    <li>楊智耀、劉峻維、李文廷。「基於蟻群演算法及容器化技術之微服務佈署方法」, 2023台灣軟體工程研討會, 花蓮, 台灣, 2023.</li>
+                    <li>劉峻維、李文廷。「基於微服務架構、開源軟體、管線及容器技術之自動化DevSecOps平台」, 2022台灣軟體工程研討會(佳作論文), 台北, 台灣, 2022.</li>
+                    <li>宋品毅、吳孟賢、李文廷。「Anser-Saga: 應用Saga設計模式與服務編排設計模式之資料一致性微服務架構實作」, 2022台灣軟體工程研討會, 台北, 台灣, 2022.</li>
+                    <li>成竣昇、李文廷。「基於Kubernetes叢集部署具水平擴展機制之微服務」</li>
+                    <li>洪玉雯、李文廷。「以遊戲學習Scrum軟體開發流程之研究—以開發水果銷售平臺為例」, 2022台灣軟體工程研討會, 台北, 台灣, 2022.</li>
+                    <li>郭丁太、李文廷。「治安情資資料庫與資訊平台之建置與應用—以數位足跡建構嫌犯數位分身及社會關係網絡為例」, 2022台灣軟體工程研討會, 台北, 台灣, 2022.</li>
+                    <li>楊智耀、劉峻維、成竣昇、宋品毅、陳建宇、吳孟賢、李文廷。「CodeHawk: 基於微服務架構與開源軟體之DevOps工具整合平台」, 2022台灣軟體工程研討會, 台北, 台灣, 2022.</li>
+                    <li>吳孟賢、李文廷。「Anser: 基於PHP與RESTful API應用服務編排模式之微服務架構實作」, 2021台灣軟體工程研討會 (最佳論文), 台中, 台灣, 2021.</li>
+                    <li>黃傳鈞、李文廷。「TD-DCNN: 電子圖檔表格辨識之可變式卷積神經網路模型」, 2021台灣軟體工程研討會, 台中, 台灣, 2021.</li>
+                </ol>
             </article>
         </section>
 
